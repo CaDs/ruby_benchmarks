@@ -18,12 +18,15 @@ For Rails versions
 `RAILS_ENV=production rackup -q`
 
 For ruby versions not supporting JIT
+
 `RACK_ENV=production rackup -q`
 
 For ruby versions supporting JIT
+
 `RUBYOPT="--jit" RACK_ENV=production rackup -q`
 
 For Jruby version JIT sore is calculated with `-Xcompile.invokedynamic` flag
+
 `RUBYOPT="-Xcompile.invokedynamic" RACK_ENV=production rackup -q`
 
 The score is calculated by running 4 times
