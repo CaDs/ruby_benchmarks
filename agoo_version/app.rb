@@ -1,7 +1,7 @@
 require 'agoo'
 require 'json'
 
-Agoo::Server.init(9293, 'root')
+Agoo::Server.init(9292, 'root')
 
 class MyHandler
   def call(req)

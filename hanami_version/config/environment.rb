@@ -18,7 +18,7 @@ Hanami.configure do
     #    adapter :sql, 'postgresql://localhost/hanami_version_development'
     #    adapter :sql, 'mysql://localhost/hanami_version_development'
     #
-    adapter :sql, 'sqlite://db/hanami_version_development.sqlite3'
+    # adapter :sql, 'sqlite://db/hanami_version_development.sqlite3'
 
     ##
     # Migrations
