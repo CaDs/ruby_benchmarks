@@ -23,10 +23,18 @@ For ruby versions not supporting JIT
 For ruby versions supporting JIT
 `RUBYOPT="--jit" RACK_ENV=production rackup -q`
 
+For Jruby version JIT sore is calculated with `-Xcompile.invokedynamic` flag
+`RUBYOPT="-Xcompile.invokedynamic" RACK_ENV=production rackup -q`
+
 The score is calculated by running 4 times
 `wrk -t4 -c100 -d30s http://localhost:9292/`
 
-first time is for warming up and then I'm getting the average score of the 3 next rounds
+The first time is for warming up and then I'm getting the average score of the 3 next rounds
+
+### Note
+For JRuby version I did run the benchmarker 5 times since it takes about 2 rounds to warm up and give stable results.
+
+For JRuby version with `-Xcompile.invokedynamic` it took about 3 rounds to warm up so I had to run the benchmarker 6 times to get stable results.
 
 Results are as above:
 
@@ -53,9 +61,9 @@ Score is the number of requests per second.
 |              | sinatra   | 350493  |  334544    |
 | jruby-9.2.5.0| agoo      |    -    |     -      |
 |              | hanami    |    -    |     -      |
-|              | padrino   | 213970  |     -      |
+|              | padrino   | 213970  |  315107    |
 |              | rails_api |    -    |     -      |
 |              | rails     |    -    |     -      |
-|              | roda      | 714487  |     -      |
-|              | sinatra   | 463915  |     -      |
+|              | roda      | 714487  |  846178    |
+|              | sinatra   | 463915  |  643856    |
 
