@@ -29,6 +29,7 @@ The score is calculated by running 4 times
 first time is for warming up and then I'm getting the average score of the 3 next rounds
 
 Results are as above:
+
 Running in a `MacBook Pro 3.5 GHz Intel Core i7 16 GB 2133 MHz LPDDR3`
 
 Score is the number of requests per second.
