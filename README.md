@@ -1,5 +1,12 @@
-## How to
+## Frameworks tested:
+- Agoo: https://github.com/ohler55/agoo
+- Hanami: https://github.com/hanami/hanami
+- Padrino: https://github.com/padrino/padrino-framework
+- Rails: https://github.com/rails/rails
+- Roda: https://github.com/jeremyevans/roda
+- Sinatra: https://github.com/sinatra/sinatra
 
+## How to
 For Agoo version I'm running the server with
 `RACK_ENV=production ruby app.rb`
 ... because I don't know how else run it.
@@ -22,7 +29,7 @@ The score is calculated by running 4 times
 first time is for warming up and then I'm getting the average score of the 3 next rounds
 
 Results are as above:
-Running in a MacBook Pro 3.5 GHz Intel Core i7 16 GB 2133 MHz LPDDR3
+Running in a `MacBook Pro 3.5 GHz Intel Core i7 16 GB 2133 MHz LPDDR3`
 
 ---------------------------------------------------
 | ruby version | framework | score   | JIT score  |
