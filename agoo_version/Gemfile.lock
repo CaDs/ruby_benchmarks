@@ -1,0 +1,13 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    agoo (2.5.5)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  agoo
+
+BUNDLED WITH
+   1.16.6

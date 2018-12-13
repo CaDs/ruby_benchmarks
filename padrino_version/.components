@@ -1,0 +1,9 @@
+---
+:orm: none
+:test: none
+:mock: none
+:script: none
+:renderer: none
+:stylesheet: none
+:namespace: PadrinoVersion
+:migration_format: number
