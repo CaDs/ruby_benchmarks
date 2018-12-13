@@ -28,7 +28,7 @@ environment ENV.fetch("RAILS_ENV") { "development" }
 # before forking the application. This takes advantage of Copy On Write
 # process behavior so workers use less memory.
 #
-workers 4
+workers 4 # remove this if using Jruby
 preload_app!
 
 # Allow puma to be restarted by `rails restart` command.
