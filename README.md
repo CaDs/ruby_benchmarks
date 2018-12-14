@@ -50,23 +50,22 @@ Score is the number of requests per second.
 |--------------|-----------|---------|------------|
 | 2.5.3p105    | agoo      | 1182809 |     -      |
 |              | hanami    | 276210  |     -      |
-|              | padrino   | 204299  |     -      |
+|              | padrino   | 294171  |     -      |
 |              | rails_api | 3902    |     -      |
 |              | rails     | 3175    |     -      |
 |              | roda      | 513080  |     -      |
 |              | sinatra   | 338932  |     -      |
 | 2.6.0-rc1    | agoo      | 1056793 |     -      |
 |              | hanami    | 303779  |  271650    |
-|              | padrino   | 194111  |  180731    |
+|              | padrino   | 306023  |  267273    |
 |              | rails_api | 3865    |  2503      |
 |              | rails     | 3007    |  1877      |
 |              | roda      | 513691  |  462229    |
 |              | sinatra   | 350493  |  334544    |
 | jruby-9.2.5.0| agoo      |    -    |     -      |
 |              | hanami    |    -    |     -      |
-|              | padrino   | 213970  |  315107    |
+|              | padrino   | 358410  |  459537    |
 |              | rails_api |    -    |     -      |
 |              | rails     |    -    |     -      |
 |              | roda      | 714487  |  846178    |
 |              | sinatra   | 463915  |  643856    |
-

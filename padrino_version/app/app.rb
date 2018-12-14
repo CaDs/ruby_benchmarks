@@ -2,7 +2,7 @@ module PadrinoVersion
   class App < Padrino::Application
     # register Padrino::Mailer
     # register Padrino::Helpers
-    enable :sessions
+    # enable :sessions
     disable :logging
     disable :static
     disable :protection
